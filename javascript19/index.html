@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <script>
+        /* var a = 10;
+        var b = 10;
+        alert(a == b?"等しい":"等しくない"); */
+
+        var number1 = 12;
+        var number2 = 13;
+        var num = number1 == number2?"そうです":"違います";
+        document.write(num);
+
+        var number3 = 13;
+        var number4 = 14;
+        var numb = number3 > number4?123:456;
+        document.write(numb);
+
+        var year = 2017;
+        var result = (year % 4 == 0 && year % 100 !==0) || (year % 400 == 0)?year + "年是闰年":year + "年不是闰年";
+        document.write(result);
+        document.write('<br>');
+        var a,b,c,d;
+        a = 3;
+        b = "name";
+        c = true;
+        d = null;
+        document.write("a的类型为" + typeof(a));
+        document.write('<br>');
+        document.write("b的类型为" + typeof(b));
+        document.write('<br>');
+        document.write("c的类型为" + typeof(c));
+        document.write('<br>');
+        document.write("d的类型为" + typeof(d));
+        document.write('<br>');
+        document.write(typeof a);
+        document.write('<br>');
+        document.write(typeof b);
+        document.write('<br>');
+        document.write(typeof c);
+        document.write('<br>');
+        document.write(typeof d);
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
